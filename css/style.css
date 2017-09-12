@@ -1,0 +1,110 @@
+ li{
+ 	list-style: none;
+ 	padding: 18px;
+ 	color: lightgrey
+ }
+ 
+.fixe{
+	height: 100px;
+ 	background-color: white;
+ 	margin-bottom: 46px;
+ 	
+} 	
+ 
+ul{
+	display: flex;
+}
+
+.entete{
+ 	display: flex;
+ 	justify-content: space-between;
+ 	/*position: fixed;
+ 	height: 84px;
+ 	background-color: white;*/
+ }
+ input{
+ 		width: 300px;
+ 		padding: 9px;
+ }
+ header button{
+ 	padding: 9px;
+ 	width: 64px;
+
+ }
+ .contenu{
+ 	max-width: 854px;
+
+ }
+ h1{
+ 	font-size: 19px;
+ }
+ 
+ .react{
+ 	display: flex;
+ 	justify-content: space-between;
+ 	color: grey;
+ 	font-size: 14px;
+ 	border-bottom: 1px solid lightgrey ;
+ }
+.suggestion{
+	float: right;
+	max-height: 100%;
+	background-color: white;
+	
+}
+.droite{
+	float: right;
+}
+.suggestion h2 {
+	float: right;
+	padding: 4px;
+	font-size: 18px;
+
+}
+span{
+	display: block;
+	
+}
+figcaption{
+	color: grey;
+	padding: 4px;
+}
+.profil{
+	width: 70px;
+	background-color: orange; 
+	border-radius: 50%;
+	padding: 12px;
+}
+.compte{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 34px;
+	height: 200px;
+	border-bottom: 1px solid lightgrey;
+
+}
+.compte button{
+	border: none;
+	padding: 16px;
+	color: grey;
+	background-color: lightgrey;
+	font-size: 16px;
+
+}
+.bellgrey{
+	color: grey;
+	padding: 4px;
+}
+.d{
+	float: right;
+}
+ i:hover{
+	color: grey;
+}
+.aboné:hover{
+	background-color: tomato;
+}
+.commentaire{
+	text-align: center;
+	padding: 34px;
+}
